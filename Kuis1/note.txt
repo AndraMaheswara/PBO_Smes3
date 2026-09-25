@@ -1,0 +1,25 @@
+rentang suhu aman adalah 1-7 jika naik() atau turun() akan membuat suhu keluar dari rentang tersebut, suhu tidak berubah dan dicetak "Suhu di luar batas aman (1-7 C)."
+
+kulkas tidak boleh memiliki getTermostat() maupun setTermostat().
+
+lebihDingin() dan kurangDingin() hanya meneruskan perintah ke termostat.turun() dan termostat.naik()
+
+aturSuhu(target) memvalidasi target lebih dulu. Jika target di luar 1-7 cetak "Target Suhu tidak valid" dan berikan method. 
+jika valid, panggil naik() atau turun() berulang kali sampai suhu sama dengan target.
+
+
+tampilkanInfo() mencetak "Kulkas <merk> | Suhu: <suhu> C.
+
+
+Uji di MainSoal dengan urutan berikut: 
+buat kulkas "Polytron" → 
+tampilkanInfo() → 
+lebihDingin() 2 kali → 
+tampilkanInfo() → 
+lebihDingin() 2 kali → 
+tampilkanInfo() → 
+aturSuhu(5) → 
+aturSuhu(9) → 
+tampilkanInfo.
+
+

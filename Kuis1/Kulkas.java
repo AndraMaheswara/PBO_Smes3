@@ -1,5 +1,4 @@
 package Kuis1;
-
 public class Kulkas {
     private String merk;
     private Thermostat thermostat;

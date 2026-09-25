@@ -1,6 +1,4 @@
 package Kuis1;
-
-
 public class Thermostat {
     private int suhu;
 

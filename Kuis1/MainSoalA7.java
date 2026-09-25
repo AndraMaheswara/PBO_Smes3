@@ -12,6 +12,5 @@ public class MainSoalA7 {
         kulkas.aturSuhu(5);
         kulkas.aturSuhu(9);
         kulkas.tampilkanInfo();
-        
     }
 }
